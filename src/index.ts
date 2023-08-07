@@ -4,19 +4,19 @@ import { GetSearch } from "./search";
 export const router = OpenAPIRouter({
 	schema: {
 		info: {
-			title: "GitHub Repositories Search API",
+			title: "Emoji Guesser",
 			description:
-				"A plugin that allows the user to search for GitHub repositories using ChatGPT",
+				"A plugin that lets users play an emoji guessing game with AI",
 			version: "v0.0.1",
 		},
 	},
 	docs_url: "/",
 	aiPlugin: {
-		name_for_human: "GitHub Repositories Search",
-		name_for_model: "github_repositories_search",
-		description_for_human: "GitHub Repositories Search plugin for ChatGPT.",
+		name_for_human: "Emoji Guesser",
+		name_for_model: "emoji_guesser",
+		description_for_human: "Emoji Guesser",
 		description_for_model:
-			"GitHub Repositories Search plugin for ChatGPT. You can search for GitHub repositories using this plugin.",
+			"Emoji Guesser plugin for ChatGPT. It pulls current stories from a news website and then uses those to create emojis about the story.",
 		contact_email: "support@example.com",
 		legal_info_url: "http://www.example.com/legal",
 		logo_url: "https://workers.cloudflare.com/resources/logo/logo.svg",
